@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Unity_Testing
-      run: make 3_IMPLEMENTATION
+      run: make 3_Implementation
