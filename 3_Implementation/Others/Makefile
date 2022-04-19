@@ -1,7 +1,7 @@
 #Main application file name
 MAIN_APP = doorLock
 #Main hex file path in windows format
-MAIN_HEX_PATH = C:\Users\AAkash\Documents\github\3_IM2_PasswordBased_DoorLockSecurity_System_
+MAIN_HEX_PATH = C:\Users\AAkash\Documents\github\M2_PasswordBased_DoorLockSecurity_System_
 /mplentation\$(MAIN_APP).hex
 
 ifdef OS
