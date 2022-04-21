@@ -11,22 +11,27 @@ is wrong on LCD. It can be used at organizations to ensure authorized access to 
 
 ## 5 W's and 1H
 
-* What? - gives access to the people you trust (no limit)
+* What? - gives access to the people you trust (no limit).
 
-* Why? - for the security of our beloved house
+* Why? - for the security of our beloved house.
 
-* Where? - anywhere the security is needed
+* Where? - anywhere the security is needed.
 
-* When? - During the time when you are not there to look after the things
+* When? - During the time when you are not there to look after the things.
 
-* Who? - people who need password secured doors locks
+* Who? - people who need password secured doors locks.
 
-* How? - you can set the password first and then use it to unlock the door
+* How? - you can set the password first and then use it to unlock the door.
  
 ## SWOT ANALYSIS
-  
-  ![secure easy to use](https://user-images.githubusercontent.com/98838252/154832932-4fa8d460-b509-4033-8ea6-4c391959d7f5.jpg)
+ * STRENGTHS - secure easy to use.
 
+* WEAKNESSES - Hacker can hack the system.
+
+* OPPORTUNITIES - can be used anywhere demand may be there for cheep password protected door lock.
+
+* THREATS - threat from hackers.
+  
 ## Identifying features
    * Screen guides how to enter the password.
    * secure
