@@ -1,4 +1,4 @@
-# Password Based Door Lock Security System
+# PROJECT TITLE - Password Based Door Lock Security System
 
 * Password Based Door Lock System using 8051 Microcontroller is a simple project where a secure password will act as a door unlocking system. Traditional lock systems using mechanical lock and key mechanism are being replaced by new advanced techniques of locking system. These techniques are an integration of mechanical and electronic devices and are highly intelligent. One of the prominent features of these innovative lock systems is their simplicity and high efficiency.
 
