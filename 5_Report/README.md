@@ -179,3 +179,7 @@ Configurable in characters rows and columns.
 
 ## Low level behavioral diagram
 ![ll behavioral diagram](https://user-images.githubusercontent.com/98838252/155833666-07662b30-f00b-4cfa-9330-84198ed1d6d4.jpeg)
+
+# Structural diagram
+  ## High level UML use case
+![HL UML](https://user-images.githubusercontent.com/98838252/155834769-17e27422-8661-4892-81ec-55e0fd8d0aca.png)
