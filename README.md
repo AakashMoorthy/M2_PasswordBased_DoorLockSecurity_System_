@@ -25,13 +25,13 @@
 [![Code Quality](https://app.codacy.com/project/badge/Grade/11868fe7d6ff4f348d6be9da922d6e22)](https://www.codacy.com/gh/AakashMoorthy/M2_PasswordBased_DoorLockSecurity_System_/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AakashMoorthy/M2_PasswordBased_DoorLockSecurity_System_&amp;utm_campaign=Badge_Grade)
 
 
-| Folder Name | Sub-folders | Contents|
-|---|---|---|
-||  0_Absract | Absract for Password Based Door Lock Security System |
-||  1_Requirements | requirnments for Password Based Door Lock Security System  |
-||  2_Architecture | architecture for Password Based Door Lock Security System |
-||  3_Implementation |implementation for Password Based Door Lock Security System |
-||  4_TestPlanAndOutput | test plan and output of Password Based Door Lock Security System|
-||  5_Report |report of Password Based Door Lock Security System |
-||  6_ImagesAndVideos | Output Images and Videos  |
-||  7_Output | Output Files |
+| Folder Name | Contents|
+|---|---|
+|  0_Absract | Absract for Password Based Door Lock Security System |
+|  1_Requirements | requirnments for Password Based Door Lock Security System  |
+|  2_Architecture | architecture for Password Based Door Lock Security System |
+|  3_Implementation |implementation for Password Based Door Lock Security System |
+|  4_TestPlanAndOutput | test plan and output of Password Based Door Lock Security System|
+|  5_Report |report of Password Based Door Lock Security System |
+|  6_ImagesAndVideos | Output Images and Videos  |
+|  7_Output | Output Files |
