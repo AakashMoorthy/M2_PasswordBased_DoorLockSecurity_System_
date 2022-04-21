@@ -1,4 +1,4 @@
-# Tool Used for Implementation
+# Tools Used for Implementation
 
 ## SimulIDE:
 SimulIDE is a real-time electronic circuit simulator. It is a simple tool intended for advance learning, and it lets you enjoy the experience as well. SimulIDE is designed to be fast and easy to use, and it works wonders for simple electronics.
