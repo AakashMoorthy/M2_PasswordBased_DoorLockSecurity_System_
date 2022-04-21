@@ -11,8 +11,17 @@ is wrong on LCD. It can be used at organizations to ensure authorized access to 
 
 ## 5 W's and 1H
 
-![Untitled](https://user-images.githubusercontent.com/98838252/155832029-19cdb5eb-2e56-4b7a-8d3d-83cf0ec14cbf.png)
+* What? - gives access to the people you trust (no limit)
 
+* Why? - for the security of our beloved house
+
+* Where? - anywhere the security is needed
+
+* When? - During the time when you are not there to look after the things
+
+* Who? - people who need password secured doors locks
+
+* How? - you can set the password first and then use it to unlock the door
  
 ## SWOT ANALYSIS
   
