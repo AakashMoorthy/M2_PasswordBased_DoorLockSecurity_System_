@@ -1,0 +1,91 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="MCU" CircId="mega328-1" mainComp="false" Show_id="true" Show_Val="false" Pos="696,636" rotation="0" hflip="1" vflip="1" label="mega328-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../../Documents/Atmel Studio/7.0/door/door/Debug/door.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="KeyPad" CircId="KeyPad-2" mainComp="false" Show_id="true" Show_Val="false" Pos="604,516" rotation="0" hflip="1" vflip="1" label="KeyPad as input snsor" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4 _Buttons" Cols="3 _Buttons" Key_Labels="123456789*0#" />
+
+<item itemtype="Hd44780" CircId="Hd44780-3" mainComp="false" Show_id="true" Show_Val="false" Pos="376,484" rotation="0" hflip="1" vflip="1" label="Display Hd44780-3" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Lines" Cols="16 _Chars." />
+
+<item itemtype="Subcircuit" CircId="ULN2001-5" mainComp="false" Show_id="true" Show_Val="false" Pos="932,648" rotation="0" hflip="1" vflip="1" label="ULN2001-5" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Stepper" CircId="Stepper-6" mainComp="false" Show_id="true" Show_Val="false" Pos="1132,688" rotation="0" hflip="1" vflip="1" label="Stepper-6" idLabPos="-32,-62" labelrot="0" valLabPos="-14,36" valLabRot="0" Bipolar="false" Steps="4 Teeth" Resistance="100 Ω" />
+
+<item itemtype="AudioOut" CircId="AudioOut-7" mainComp="false" Show_id="false" Show_Val="false" Pos="956,908" rotation="-180" hflip="1" vflip="1" label="AudioOut-7" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="inf Ω" />
+
+<item itemtype="Led" CircId="Led-8" mainComp="false" Show_id="false" Show_Val="false" Pos="1012,852" rotation="0" hflip="1" vflip="1" label="Led-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Battery" CircId="Battery-9" mainComp="false" Show_id="false" Show_Val="false" Pos="948,764" rotation="0" hflip="1" vflip="1" label="Battery-9" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="Ground" CircId="Ground-10" mainComp="false" Show_id="false" Show_Val="false" Pos="332,548" rotation="0" hflip="1" vflip="1" label="Ground-10" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-11" mainComp="false" Show_id="false" Show_Val="false" Pos="1108,904" rotation="0" hflip="1" vflip="1" label="Ground-11" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-60" mainComp="false" Show_id="false" Show_Val="false" Pos="1212,680" rotation="0" hflip="1" vflip="1" label="TextComponent-60" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="12 Pixels" Fixed_Width="false" Text="Unlock" />
+
+<item itemtype="TextComponent" CircId="TextComponent-61" mainComp="false" Show_id="false" Show_Val="false" Pos="1104,776" rotation="0" hflip="1" vflip="1" label="TextComponent-61" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="true" Text="Lock" />
+
+<item itemtype="TextComponent" CircId="TextComponent-62" mainComp="false" Show_id="false" Show_Val="false" Pos="520,324" rotation="0" hflip="1" vflip="1" label="TextComponent-62" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="19 Pixels" Fixed_Width="false" Text="PASSWOR BASED DOOR LOCK SECURITY SYSTEM &#xa;                - AAKASH M" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="972,764" />
+
+<item itemtype="Node" CircId="Node-52" mainComp="false" Pos="984,852" />
+
+<item itemtype="Node" CircId="Node-58" mainComp="false" Pos="1064,852" />
+
+<item itemtype="Connector" uid="connector-12" startpinid="Hd44780-3-PinRW" endpinid="Ground-10-Gnd" pointList="400,492,400,532,332,532" />
+
+<item itemtype="Connector" uid="connector-13" startpinid="Hd44780-3-PinRS" endpinid="mega328-1-PORTB0" pointList="392,492,392,748,688,748" />
+
+<item itemtype="Connector" uid="connector-14" startpinid="Hd44780-3-dataPin6" endpinid="mega328-1-PORTB6" pointList="464,492,464,708,688,708" />
+
+<item itemtype="Connector" uid="connector-15" startpinid="Hd44780-3-dataPin7" endpinid="mega328-1-PORTB7" pointList="472,492,472,716,688,716" />
+
+<item itemtype="Connector" uid="connector-16" startpinid="Hd44780-3-dataPin4" endpinid="mega328-1-PORTB4" pointList="448,492,448,808,768,808,768,724,736,724" />
+
+<item itemtype="Connector" uid="connector-17" startpinid="Hd44780-3-PinEn" endpinid="mega328-1-PORTB1" pointList="408,492,408,784,760,784,760,748,736,748" />
+
+<item itemtype="Connector" uid="connector-18" startpinid="mega328-1-PORTB2" endpinid="ULN2001-5-In1" pointList="736,740,848,740,848,656,924,656" />
+
+<item itemtype="Connector" uid="connector-19" startpinid="mega328-1-PORTC4" endpinid="ULN2001-5-In3" pointList="736,652,808,652,808,672,924,672" />
+
+<item itemtype="Connector" uid="connector-20" startpinid="Hd44780-3-dataPin5" endpinid="mega328-1-PORTB5" pointList="456,492,456,840,788,840,788,716,736,716" />
+
+<item itemtype="Connector" uid="connector-21" startpinid="mega328-1-PORTD2" endpinid="KeyPad-2-Pin6" pointList="688,668,636,668,636,588" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="KeyPad-2-Pin5" endpinid="mega328-1-PORTD1" pointList="620,588,620,660,688,660" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="mega328-1-PORTD0" endpinid="KeyPad-2-Pin4" pointList="688,652,604,652,604,588" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="KeyPad-2-Pin3" endpinid="mega328-1-PORTC0" pointList="652,572,788,572,788,684,736,684" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="mega328-1-PORTC1" endpinid="KeyPad-2-Pin2" pointList="736,676,776,676,776,556,652,556" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="mega328-1-PORTC2" endpinid="KeyPad-2-Pin1" pointList="736,668,768,668,768,540,652,540" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="KeyPad-2-Pin0" endpinid="mega328-1-PORTC3" pointList="652,524,756,524,756,660,736,660" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="ULN2001-5-Out1" endpinid="Stepper-6-PinA1" pointList="972,656,1060,656" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="ULN2001-5-Out3" endpinid="Stepper-6-PinA2" pointList="972,672,1016,672,1016,704,1060,704" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Battery-9-rPin" endpinid="Node-35-0" pointList="964,764,972,764" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="ULN2001-5-Gnd" endpinid="Battery-9-lPin" pointList="924,712,920,712,920,764,932,764" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="ULN2001-5-Com" endpinid="Node-35-1" pointList="972,712,972,764" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="Node-35-2" endpinid="Stepper-6-PinCo" pointList="972,764,1036,764,1036,688,1060,688" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="mega328-1-PORTB3" endpinid="Node-52-0" pointList="736,732,908,732,908,852,984,852" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="AudioOut-7-lPin" endpinid="Node-52-1" pointList="972,916,984,916,984,852" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Node-52-2" endpinid="Led-8-lPin" pointList="984,852,996,852" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Led-8-rPin" endpinid="Node-58-0" pointList="1028,852,1064,852" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="AudioOut-7-rPin" endpinid="Node-58-1" pointList="972,908,1064,908,1064,852" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="Node-58-2" endpinid="Ground-11-Gnd" pointList="1064,852,1108,852,1108,888" />
+
+</circuit>
